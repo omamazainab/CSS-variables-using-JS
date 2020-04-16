@@ -1,0 +1,23 @@
+:root{
+    --color: #ccc; 
+    --blur: 10px;
+    --spacing: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--color);
+    filter: blur(var(--blur));
+}
+
+body{
+    text-align: center;
+    background-image: url("bg-img.jpg");
+    color: white;
+}
+img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top:100px;
+}
